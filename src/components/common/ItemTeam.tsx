@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Image from 'next/image';
 import { twMerge } from 'tailwind-merge';
 import { Team } from '~/shared/types';
@@ -16,7 +17,7 @@ const ItemTeam = ({
 }: Team) => {
   return (
     <div className={twMerge('', containerClass)}>
-      <Image src={image.src} width={240} height={320} alt={image.alt} className={twMerge('', imageClass)} />
+      <img src={image.src.toString()} width={240} height={320} alt={image.alt} className={twMerge('', imageClass)} />
       <div className={twMerge('', panelClass)}>
         <h3 className={twMerge('', nameClass)}>{name}</h3>
         <p className={twMerge('', occupationClass)}>{occupation}</p>

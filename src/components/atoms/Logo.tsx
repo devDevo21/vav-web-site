@@ -1,10 +1,11 @@
-import Image from 'next/image'
+// import Image from 'next/image'
 const logo = '/images/logo.jpg'
 
 const Logo = () => (
   // <span className="ml-2 self-center whitespace-nowrap text-2xl font-bold text-gray-900 dark:text-white md:text-xl">
   //   TailNext
   // </span>
+  // eslint-disable-next-line @next/next/no-img-element
   <img
     src={logo}
     width={70}

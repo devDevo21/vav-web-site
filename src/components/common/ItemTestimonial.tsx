@@ -28,8 +28,9 @@ const ItemTestimonial = ({
           <>
             <div className={twMerge('flex items-center', dataClass)}>
               {image && (
-                <Image
-                  src={image.src}
+                // eslint-disable-next-line @next/next/no-img-element
+                <img
+                  src={image.src.toString()}
                   width={248}
                   height={248}
                   alt={image.alt}

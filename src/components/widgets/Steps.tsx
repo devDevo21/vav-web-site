@@ -38,14 +38,15 @@ const Steps = ({
       {isImageDisplayed && (
         <div className="relative md:basis-1/2">
           {image && (
-            <Image
-              src={image.src}
+            // eslint-disable-next-line @next/next/no-img-element
+            <img
+              src={image.src.toString()}
               width={400}
               height={768}
               alt={image.alt}
               // placeholder="blur"
               className="inset-0 object-cover object-top w-full rounded-md shadow-lg md:absolute md:h-full bg-gray-400 dark:bg-slate-700"
-              quality={50}
+              // quality={50}
             />
           )}
         </div>

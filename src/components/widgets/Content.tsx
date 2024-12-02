@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Image from 'next/image';
 import { IconCheck } from '@tabler/icons-react';
 
@@ -41,15 +42,15 @@ const Content = ({
         <div aria-hidden="true" className="mt-10 md:mt-0 md:basis-1/2">
           {image && (
             <div className="relative m-auto max-w-4xl">
-              <Image
+              <img
                 className="mx-auto w-full rounded-lg shadow-lg bg-gray-400 dark:bg-slate-700"
-                src={image.src}
+                src={image.src.toString()}
                 width={828}
                 height={828}
                 alt={image.alt}
                 sizes="(max-width: 768px) 100vw, 432px"
                 // placeholder="blur"
-                quality={50}
+                // quality={50}
               />
             </div>
           )}
