@@ -14,8 +14,8 @@ const Footer2 = () => {
             <div className="mb-2 font-medium text-gray-800 dark:text-gray-300">{title}</div>
             {texts &&
               texts.map((text, index2) => (
-                <p key={`item-text-${index2}`} className="text-gray-600 dark:text-slate-400">
-                  {typeof text != 'string' ? <> {text.local} <a href={`"tel: ${text.tel}`}>{text.tel} </a> </> : text}`
+                <p key={`"item-text-${index2}"`} className="text-gray-600 dark:text-slate-400">
+                  {typeof text != 'string' ? <> {text.local} <a href={`"tel:${text.tel}"`}>{text.tel} </a> </> : text}`
                   {/* {typeof text != 'string' ? <a href={`"tel: ${text.tel}`}> {text.tel} </a> : text} */}
                 </p>
               ))}
