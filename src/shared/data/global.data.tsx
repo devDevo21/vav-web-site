@@ -256,7 +256,7 @@ export const footerData2: FooterProps = {
     },
     {
       title: 'Email',
-      texts: ['Bureau: visionalpha09@gmail.com', 'Site Web: https://example.com'],
+      texts: ['Bureau: visionalpha09@gmail.com', 'Site Web: https://vison-alpha-voyage-web-site.onrender.com'],
     },
   ],
   socials: [
