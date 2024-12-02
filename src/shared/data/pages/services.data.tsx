@@ -17,9 +17,9 @@ import {
   TestimonialsProps,
 } from '~/shared/types';
 
-import heroImg from '~/assets/images/hero.jpg';
-import cameraFrontImg from '~/assets/images/etonement.jpg';
-import cameraBackImg from '~/assets/images/camera-back.jpg';
+const heroImg = '/images/hero.jpg';
+const cameraFrontImg = '/images/etonement.jpg';
+const cameraBackImg = '/images/camera-back.jpg';
 
 // Hero data on Services page *******************
 export const heroServices: HeroProps = {

@@ -28,21 +28,21 @@ import {
   TeamProps,
   TestimonialsProps,
 } from '../../types';
-import heroImg from '~/assets/images/hero.jpg';
-import nextJsLogo from '~/assets/images/nextjs-logo.png';
-import reactLogo from '~/assets/images/react-logo.png';
-import tailwindCssLogo from '~/assets/images/tailwind-css-logo.png';
-import typescriptLogo from '~/assets/images/typescript-logo.png';
-import cameraFrontImg from '~/assets/images/camera-front.jpg';
-import cameraBackImg from '~/assets/images/camera-back.jpg';
-import etudiantsGroup from '~/assets/images/etudiants.jpg';
-import etudierruss from '~/assets/images/africaine.jpg'
-import personel1 from '~/assets/images/personel1.png';
-import personel2 from '~/assets/images/personel2.png';
-import personel3 from '~/assets/images/personel3.png';
-import personel5 from '~/assets/images/personel5.png';
-import personel4 from '~/assets/images/personel4.png';
-import modepass from '~/assets/images/modepass.jpg';
+const heroImg = '/images/hero.jpg';
+const nextJsLogo = '/images/nextjs-logo.png';
+const reactLogo = '/images/react-logo.png';
+const tailwindCssLogo = '/images/tailwind-css-logo.png';
+const typescriptLogo = '/images/typescript-logo.png';
+const cameraFrontImg = '/images/camera-front.jpg';
+const cameraBackImg = '/images/camera-back.jpg';
+const etudiantsGroup = '/images/etudiants.jpg';
+const etudierruss = '/images/africaine.jpg'
+const personel1 = '/images/personel1.png';
+const personel2 = '/images/personel2.png';
+const personel3 = '/images/personel3.png';
+const personel5 = '/images/personel5.png';
+const personel4 = '/images/personel4.png';
+const modepass = '/images/modepass.jpg';
 
 // Hero data on Home page *******************
 export const heroHome: HeroProps = {

@@ -1,8 +1,8 @@
 .heroOneHomePage {
-    background-image: url('../images/central_image.jpg');
+    background-image: url('/images/central_image.jpg');
     background-size: cover;
 }
 .heroOneServicesPage {
-    background-image: url('../images/travel away.jpg');
+    background-image: url('/images/travel away.jpg');
     background-size: cover;
 }

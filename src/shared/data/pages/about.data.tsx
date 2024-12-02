@@ -8,7 +8,7 @@ import {
   TeamProps,
   TestimonialsProps,
 } from '~/shared/types';
-import team from '~/assets/images/team.jpg';
+const team = '/images/team.jpg';
 import {
   IconAdjustments,
   IconAward,
