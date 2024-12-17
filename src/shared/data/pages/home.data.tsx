@@ -294,14 +294,14 @@ export const stepsHome: StepsProps = {
       title: 'Étape 1',
       step: 'L’étude de dossier',
       description:
-        `Cette étape consiste à examiner les documents soumis par l'étudiant (diplômes, relevés de notes, etc.) pour vérifier leur conformité et leur admissibilité à un programme d'études en Russie. il dure généralement 1 à 2 semaines`,
+        `Cette étape consiste à examiner les documents soumis par l'étudiant (diplômes, relevés de notes, etc.) afin de vérifier leur conformité et leur admissibilité à un programme d'études en Russie. elle dure généralement 1 à 2 semaines`,
       icon: IconArrowDown,
     },
     {
       title: 'Étape 2',
       step: 'L’admission',
       description:
-        `Cette consiste à votre acceptation dans une université en Russie après l'examen de votre dossier et la validation de vos qualifications.`,
+        `Cette étape consiste à votre acceptation dans une université en Russie après l'examen de votre dossier et la validation de vos qualifications.`,
       icon: IconArrowDown,
     },
     {
@@ -797,7 +797,7 @@ export const callToAction2Home: CallToActionProps = {
           placeholder: 'Enter your email address',
         },
         btn: {
-          title: 'Je souscrit',
+          title: 'Je souscris',
           type: 'submit',
         },
       },
