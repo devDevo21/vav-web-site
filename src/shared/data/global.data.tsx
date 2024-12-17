@@ -252,7 +252,7 @@ export const footerData2: FooterProps = {
     {
       title: 'Telephone',
       // texts: ['Reception: +105 123 4567', 'Office: +107 235 7890'],
-      texts: [{ local: 'Reception:', tel: '+237693312259' }, { local: 'Bureau:', tel: '+79191743605' }],
+      texts: [{ local: 'Reception:', tel: '+79969443820' }, { local: 'Bureau:', tel: '+237671156181' }],
     },
     {
       title: 'Email',

@@ -42,6 +42,7 @@ const personel2 = '/images/personel2.png';
 const personel3 = '/images/personel3.png';
 const personel5 = '/images/personel5.png';
 const personel4 = '/images/personel4.png';
+const pdg = '/images/pdg.png';
 const modepass = '/images/modepass.jpg';
 
 // Hero data on Home page *******************
@@ -558,7 +559,7 @@ export const teamHome: TeamProps = {
       name: 'Joskel Arthur Mboda',
       occupation: 'PDG Fondateur',
       image: {
-        src: '',//personel3,
+        src: pdg,
         alt: 'Joskel Arthur Mboda',
       },
       items: [
