@@ -583,7 +583,7 @@ export const teamHome: TeamProps = {
     },
     {
       name: 'DEGOUTIO Grace Canleine',
-      occupation: 'Secrétaire Général',
+      occupation: 'Directrice  Général',
       image: {
         src: secg,
         alt: 'DEGOUTIO Grace Canleine',
