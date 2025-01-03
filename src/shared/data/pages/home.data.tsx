@@ -42,7 +42,8 @@ const personel2 = '/images/personel2.png';
 const personel3 = '/images/personel3.png';
 const personel5 = '/images/personel5.png';
 const personel4 = '/images/personel4.png';
-const pdg = '/images/pdg.png';
+const pdg = '/images/pdg2.png';
+const secg = '/images/secg.jpg';
 const modepass = '/images/modepass.jpg';
 
 // Hero data on Home page *******************
@@ -581,6 +582,31 @@ export const teamHome: TeamProps = {
       ],
     },
     {
+      name: 'DEGOUTIO Grace Canleine',
+      occupation: 'Secrétaire Général',
+      image: {
+        src: secg,
+        alt: 'DEGOUTIO Grace Canleine',
+      },
+      items: [
+        {
+          title: 'Know more on Twitter',
+          icon: IconBrandTwitter,
+          href: '#',
+        },
+        {
+          title: 'Know more on Linkedin',
+          icon: IconBrandLinkedin,
+          href: '#',
+        },
+        {
+          title: 'Contact by email',
+          icon: IconMail,
+          href: '#',
+        },
+      ],
+    },
+    {
       name: 'CHAMDJOU Axel',
       occupation: 'Responsable Design',
       image: {
@@ -794,7 +820,7 @@ export const callToAction2Home: CallToActionProps = {
           type: 'email',
           name: 'email',
           autocomplete: 'email',
-          placeholder: 'Enter your email address',
+          placeholder: 'Votre addresse email',
         },
         btn: {
           title: 'Je souscris',

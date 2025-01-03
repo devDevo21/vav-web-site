@@ -1,7 +1,7 @@
 import React from 'react';
 
 const WhatsAppFloatingButton = () => {
-  const whatsappNumber = '+79191743605'; // Remplacez par votre numéro WhatsApp (format international sans le "+")
+  const whatsappNumber = '+237640018203'; // Remplacez par votre numéro WhatsApp (format international sans le "+")
 
   return (
     <a
